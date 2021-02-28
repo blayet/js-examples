@@ -13,3 +13,10 @@ The "modules" directory contains a series of examples that explain how [JavaScri
 * [classes](modules/classes): Provides an example of importing a class from a module ([run the example live](http://mdn.github.io/js-examples/modules/classes)).
 * [module-aggregation](modules/module-aggregation): Shows how sub module features can be aggregated into a parent module using `export { x } from 'y.js'` syntax ([run the example live](http://mdn.github.io/js-examples/modules/module-aggregation)).
 * [dynamic-module-imports](modules/dynamic-module-imports): Demonstrates dynamic module loading using `import().then()` ([run the example live](http://mdn.github.io/js-examples/modules/dynamic-module-imports)).
+
+# BLAY
+
+* Install serve: npm install serve
+* Modify serve.json to point to folder to serve
+* Run: npx serve -l <port>
+* For info run: serve --help
